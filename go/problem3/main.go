@@ -11,5 +11,4 @@ const number = 600851475143
 func main() {
 	primeFactors := largestfactor.LargestPrimeFactors(number)
 	fmt.Println(primeFactors)
-
 }

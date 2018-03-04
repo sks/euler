@@ -1,10 +1,13 @@
-package main
+package problem2
 
 import "fmt"
 
 const max = 4000000
 
-func main() {
+type Problem struct {
+}
+
+func (p Problem) Question() {
 	i := 1
 	nextNumber := 2
 	sum := 0
